@@ -9,24 +9,33 @@ public class Empleado {
 
     }
 
-    public Empleado(String nombre, string cargo, double salario) {
+    public Empleado(String nombre, String cargo, double salario) {
         this.nombre = nombre;
         this.cargo = cargo;
         this.salario = salario;
     }
 
-    public void setNombre(String nombre){
+    public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    
-    public void setCargo(String cargo){
-        this.nombre = nombre;
+
+    public String getNombre() {
+        return nombre;
     }
-    
-    public void setSalario(String salario){
+
+    public void setCargo(String cargo) {
+        this.cargo = cargo;
+    }
+
+    public String getCargo() {
+        return cargo;
+    }
+
+    public void setSalario(double salario) {
         this.salario = salario;
     }
-    
 
-
+    public Double getSalario() {
+        return salario;
+    }
 }
